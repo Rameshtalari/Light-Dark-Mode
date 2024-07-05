@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+  padding: 24px;
+}
+.card-container {
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+}
+.dark-mode {
+  color: #ffffff;
+  background-color: #000000;
+}
+.lite-mode {
+  color: #000000;
+  background-color: #ffffff;
+  border-width: 1px solid #000000;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+.button {
+  font-size: 15px;
+  border: none;
+  padding: 16px;
+  border-radius: 8px;
+}
